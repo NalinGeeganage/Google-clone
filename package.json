@@ -6,6 +6,9 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
+  "keywords": [
+    "Google Clone"
+  ],
   "author": "NalinGeeganage <nalinruwan1996@gmail.com> (https://ijse.lk)",
   "license": "MIT",
   "dependencies": {
