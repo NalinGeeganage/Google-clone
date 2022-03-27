@@ -85,25 +85,29 @@ footer{
     left: 0%;
     right: 0%;
     bottom: 0%;
-    background-color: #9aa0a6;
-    
+    background-color: #f2f2f2;
+    color: #70757a;
 }
 
 
 footer #country{
     padding: 15px 30px;
     font-size: 15px;
+    border-bottom: 1px solid #dadce0;
 }
 footer #links{
+    padding: 0px 20px;
     display: flex;
     flex-wrap: wrap;
+    justify-content: space-between;
 }
 footer #links > div{
     display: flex;
+    justify-content: center;
 }
 footer #links > div a{
     padding: 15px;
-    color: black;
+    color: inherit;
 }
 
 
@@ -118,5 +122,14 @@ footer #links > div a{
     header{
         justify-content: center;
     }
-    
 }
+@media all and (max-width: 1200px){
+    footer #links{
+        justify-content: space-around;
+    }
+ }
+ @media all and (max-width:664px){
+    footer #links {
+        justify-content: center;
+    }
+ }
